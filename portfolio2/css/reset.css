@@ -2,6 +2,11 @@
 ul{list-style: none; user-select: none;}
 a{text-decoration: none; color: inherit; user-select: none;}
 span{user-select: none!important;}
+
+@font-face{
+  font-family: "Noto Sans KR";
+  src: url(../font/NotoSansKR-Medium.otf)format('truetype');
+}
 .clearfix::after{
   content: "";
   display: block;
