@@ -5,7 +5,7 @@ span{user-select: none!important;}
 
 @font-face{
   font-family: "Noto Sans KR";
-  src: url(../font/NotoSansKR-Medium.otf)format('truetype');
+  src: url(../font/NotoSansKR-Medium.otf)format('opentype');
 }
 .clearfix::after{
   content: "";
