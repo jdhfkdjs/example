@@ -1361,6 +1361,19 @@
   }
 }
 
+@media screen and (max-width: 390px){
+  #products .title{
+    width: 16.7rem;
+    padding: 4rem 0 4rem;
+    margin-left: 20px;
+  }
+  #products .box p:last-child{
+    margin-left: 68px;
+  }
+  .slick-dots{
+    bottom: -60px;
+  }
+}
 @media screen and (max-width: 375px){
   #main{
     width: 100%;
