@@ -87,6 +87,10 @@ $("#products .imgGroup").slick({
     { /* 반응형웹*/
       breakpoint: 600, /*  기준화면사이즈 */
       settings: {slidesToShow:2 } /*  사이즈에 적용될 설정 */
+    },
+    { /* 반응형웹*/
+      breakpoint: 400, /*  기준화면사이즈 */
+      settings: {slidesToShow:2 } /*  사이즈에 적용될 설정 */
     }
   ]
 });

@@ -1362,10 +1362,19 @@
 }
 
 @media screen and (max-width: 390px){
+  #main{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/headerbg375.png) center/cover;
+  }
+
   #products .title{
-    width: 16.7rem;
+    width: auto;
     padding: 4rem 0 4rem;
     margin-left: 20px;
+  }
+  #products .title p{
+    margin-right: 120px;
   }
   #products .box p:last-child{
     margin-left: 68px;
@@ -1373,13 +1382,172 @@
   .slick-dots{
     bottom: -60px;
   }
+
+  #shop > .wrap{
+    width: 98%;
+    margin: auto;
+  }
+  #shop .shop_sellect{
+    padding-top: 1.4rem;
+    font-size: 12px;
+  }
+  #shop .women > .bg,
+  #shop .men > .bg{
+    padding: 15px 15px 30px;
+  }
+  #shop .women{
+    width: 62.6%;
+    margin-bottom: 15px;
+  }
+  #shop .men{
+    width: 62.6%;
+  }
+  #shop .rc1,
+  #shop .rc2{
+    background: url(../img/rc4.png) no-repeat;
+  }
+  #shop .rc1,
+  #shop .rc2{
+    left: 254px;
+  }
+  #shop .rc2{
+    top: 540px;
+  }
+  #shop .rc1 p,
+  #shop .rc2 p{
+    font-size: 0.6rem;
+    top: 22px; left: 30px;
+  } 
+
+  #story .title a{
+    line-height: 200px;
+  }
+  #story .aco{
+    display: none;
+  }
+  #story .aco2{
+    display: block;
+    border-bottom: 2px solid #999;
+  }
+  #story .subtitle2{
+    font-size: 20px;
+    line-height: 80px;
+  }
+  #story .subtitle2-2{
+    letter-spacing: -2px;
+  }
+  #story .year{
+    line-height: 80px;
+  }
+  #story .toggle_btn{
+    font-size: 30px;
+    margin: 16px 20px 0 0;
+  }
+  #story .storyPage{
+    line-height: 160px;
+  }
+
+  #category .wrap{
+    width: 94.667%;
+    margin: auto;
+  }
+  #category h1{
+    padding: 2.9rem 0;
+  }
+  #category .textBox{
+    font-size: 2.1rem;
+  }
+  #category .txt{
+    margin-bottom: 2.6rem;
+  }
+
+  #collection .wrap{
+    width: 94.667%;
+    margin: auto;
+  }
+  #collection .title{
+    padding: 4rem 0;
+  }
+  #collection .title h1{
+    font-size: 2rem;
+  }
+  #collection .imgGroup{
+    margin-left: 62px;
+  }
+  #collection .imgGroup .c3{
+    position: absolute;
+    width: 43.8%;
+    right: 20px; top: 190px;
+  }
+  #collection .imgGroup .c1,
+  #collection .imgGroup .c2{
+    position: absolute;
+    width: 21.8%;
+    margin: 0;
+  }
+  #collection .collection1{
+    left: 104px; top: 190px;
+  }
+  #collection .collection2{
+    left: 20px; top: 190px;
+  }
+  #collection .collection4{
+    left: 104px; top: 329px;
+  }
+  #collection .collection5{
+    left: 20px; top: 329px;
+  }
+  #collection .txt{
+    font-size: 0.87rem;
+    margin-top: 280px;
+  }
+
+  #sns .wrap{
+    width: 94.667%;
+    margin: auto;
+  }
+  #sns .title{
+    padding: 4rem 0; 
+  }
+  #sns .title h1{
+    font-size: 2rem;
+  }
+  #sns .imgBox{
+    margin-left: 60px;
+  }
+  #sns .sns3{
+    position: absolute;
+    left: 30px; top: 190px;
+    width: 42.6%;
+  }
+  #sns .sns1,
+  #sns .sns2{
+    position: absolute;
+    width:20.6%;
+    margin-top: 0;
+  }
+  #sns .s2{
+    top: 190px;
+    right: 91px;
+  }
+  #sns .s3{
+    top: 190px;
+    right: 8px;
+  }
+  #sns .s4{
+    top: 332px;
+    right: 91px;
+  }
+  #sns .s5{
+    top: 332px;
+    right: 8px;
+  }
+  #sns .txt{
+    font-size: 1rem;
+    margin-top: 290px;
+  }
 }
 @media screen and (max-width: 375px){
-  #main{
-    width: 100%;
-    height: 100vh;
-    background: url(../img/headerbg375.png) center/cover;
-  }
   #main .sidebar{
     left: -280px;
     width: 280px;
