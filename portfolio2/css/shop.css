@@ -339,6 +339,27 @@ html,body{
   }  
 }
 
+@media screen and (max-width: 390px){
+  #header{
+    width: 100%;
+    height: 265px;
+  }  
+  #header .gnb{
+    width: 30%;
+    font-size: 0.8rem;
+    padding: 0.6rem 0 0 0.8rem;
+  }
+  #header .gnb li{
+    margin-bottom: 0.8rem;
+  }
+  #header .banner{
+    display: none;
+  }
+  #header .video{
+    width: 70%;
+  }
+}
+
 @media screen and (max-width: 375px){
   #header{
     width: 100%;
