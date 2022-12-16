@@ -311,10 +311,10 @@ html,body{
     left: -350px;
     width: 350px;
   }
-  #main .txt{
+  #header .txt{
     top: 120px;
   }
-  #main .vivienne{
+  #header .vivienne{
     bottom: 60px;
   }
   #header .arrow{
@@ -328,15 +328,12 @@ html,body{
     bottom: 15px;
   }
   #header .menubar::after{
-    top: 1.5rem; 
     left: 1.4rem;
   }
   #header .bag::after{
-    top: 1.6rem;
-    right: 3rem;
+    right: 3.4rem;
   }
   #header .search::after{
-    top: 1.6rem;
     right: 1.2rem;
   }
 
@@ -395,6 +392,58 @@ html,body{
   #bridal .contents3 .box{
     width: 60.8%;
   }
+}
+
+@media screen and (max-width: 390px){
+  #header .sidebar{
+    left: -280px;
+    width: 280px;
+  }
+  #header .txt{
+    top: 100px;
+  }
+  #header .vivienne{
+    bottom: 100px;
+  }
+  
+  #bridal .title{
+    margin-left: 1rem;
+  }
+  #bridal .title h1{
+    font-size: 1.6rem;
+    padding: 8rem 0 5rem;
+  }
+  #bridal .contents{
+    margin-left: 1.98rem;
+  }
+  #bridal .contents .box{
+    width: 90%;
+    margin-bottom: 80px;
+  }
+  #bridal .contents .col{
+    width: 94%;
+  }
+  #bridal .contents2 .box3{
+    width: 30%;
+  }
+  #bridal .contents3{
+    margin-left: 25px;
+  }
+  #bridal .contents p,
+  #bridal .contents2 p,
+  #bridal .contents3 p{
+    font-size: 0.87rem;
+  }
+  #bridal .contents3 .box2{
+    width: 32%;
+  }
+  #bridal .contents3 .box{
+    width: 60.8%;
+  }
+  #bridal .contents3{
+    padding-bottom: 10rem;
+  }
+  
 }
 
 @media screen and (max-width: 375px){

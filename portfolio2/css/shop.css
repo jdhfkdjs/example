@@ -308,11 +308,9 @@ html,body{
     width: 72%;
   }
   #header .bag::after{
-    top: 1.6rem;
-    right: 3rem;
+    right: 3.4rem;
   }
   #header .search::after{
-    top: 1.6rem;
     right: 1.2rem;
   }
 
@@ -347,10 +345,10 @@ html,body{
   #header .gnb{
     width: 30%;
     font-size: 0.8rem;
-    padding: 0.6rem 0 0 0.8rem;
+    padding: 0.8rem 0 0 0.9rem;
   }
   #header .gnb li{
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.2rem;
   }
   #header .banner{
     display: none;

@@ -366,15 +366,12 @@ html,body{
     bottom: 15px;
   }
   #header .menubar::after{
-    top: 1.5rem; 
     left: 1.4rem;
   }
   #header .bag::after{
-    top: 1.6rem;
-    right: 3rem;
+    right: 3.4rem;
   }
   #header .search::after{
-    top: 1.6rem;
     right: 1.2rem;
   }
 
@@ -433,6 +430,73 @@ html,body{
     line-height: 60px;
   }
 }
+@media screen and (max-width: 390px){
+  #header{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/lookbookbg375.png) center/cover;
+  }
+  #header .sidebar{
+    left: -280px;
+    width: 280px;
+  }
+  #header .txt{
+    top: 100px;
+  }
+  #header .vivienne{
+    bottom: 100px;
+  }
+
+  #lookbook .title h2{
+    font-size: 22px;
+    line-height: 50px;
+    padding: 150px 0 130px;
+  }
+  #lookbook .title b{
+    font-size: 38px;
+  }
+  #lookbook .contents img{
+    width: 120%;
+    margin: 0 0 20px 40px;
+  }
+  #lookbook .contents p{
+    font-size: 14px;
+    margin: 0 0 200px 10px;
+  }
+  #lookbook .imgGroup .box{
+    width: 90%;
+    margin-left: 18px;
+  }
+  #lookbook .text{
+    width: 360px;
+    margin-left: 10px;
+  }
+  #lookbook .txt_l .illu2{
+    left: 150px; top: 2550px;
+  }
+  #lookbook .imgGroup2{
+    flex-direction: column;
+  }
+  #lookbook .imgGroup2 .box{
+    width: 90%;
+    margin-left: 18px;
+  }
+  #lookbook .imgGroup2 .box2{
+    width: 90%;
+    margin-left: 18px;
+  }
+  #lookbook .imgGroup2 .b2{
+    margin-bottom: 180px;
+  }
+  #lookbook .text_slide > .illu{
+    left: 120px;
+  }
+  #lookbook marquee{
+    font-size: 36px;
+    line-height: 60px;
+  }
+}
+
 @media screen and (max-width: 375px){
   #header{
     width: 100%;
